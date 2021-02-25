@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Davis",
+      "email": "kjwqelkj@gmail.com",
+      "password": "fcghbjhbbhiujouibhojuivhbjnkm"
+    },
+    {
+      "id": 2,
+      "username": "Joe",
+      "email": "kjwqelkj@gmail.com",
+      "password": "xdrchvjbnhvbnnhvbjnkjbhftgvybhnj"
+    },
+    {
+      "username": "Emily",
+      "email": "wqeefqweqwe@gmail.com",
+      "password": "ksandlknasldnaskldaklsdaskldaklnd",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "username": "Emily",
+      "email": "ewe@gmail.com",
+      "password": "weweqeweqe",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "username": "Joy",
+      "email": "wqeefqweqwe@gmail.com",
+      "password": "qweqweqweweqewqee",
+      "reminder": true,
+      "id": 5
+    }
+  ]
+}
