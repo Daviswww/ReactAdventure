@@ -1,4 +1,37 @@
 # Getting Started with Create React App
+## Using
+### Run app
+```
+$ npm start
+```
+
+http://localhost:3000/
+### Json-server
+```bash=
+$ npm run server
+```
+
+
+http://localhost:5000/users
+
+```
+[
+    {
+    "id": 1,
+    "username": "Davis",
+    "email": "kjwqelkj@gmail.com",
+    "password": "fcghbjhbbhiujouibhojuivhbjnkm"
+    },
+    {
+    "id": 2,
+    "username": "Joe",
+    "email": "kjwqelkj@gmail.com",
+    "password": "xdrchvjbnhvbnnhvbjnkjbhftgvybhnj"
+    },
+]
+```
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
