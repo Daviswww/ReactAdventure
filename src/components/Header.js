@@ -1,3 +1,7 @@
+import {
+    Link
+  } from "react-router-dom";
+
 const Header = () => {
     return (
         <header>
@@ -7,9 +11,8 @@ const Header = () => {
                     <div className="col-sm-4 offset-md-1 py-4">
                     <h4 className="text-white">Contact</h4>
                     <ul className="list-unstyled">
-                        <li><a href="/" className="text-white">Follow on Twitter</a></li>
-                        <li><a href="/" className="text-white">Like on Facebook</a></li>
-                        <li><a href="/" className="text-white">Email me</a></li>
+                        <li><Link to="/" className="text-white">Home</Link></li>
+                        <li><Link to="/about" className="text-white">About</Link></li>
                     </ul>
                     </div>
                 </div>

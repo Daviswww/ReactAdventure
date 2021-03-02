@@ -4,7 +4,8 @@
       "id": 1,
       "username": "Davis",
       "email": "kjwqelkj@gmail.com",
-      "password": "fcghbjhbbhiujouibhojuivhbjnkm"
+      "password": "fcghbjhbbhiujouibhojuivhbjnkm",
+      "reminder": true
     },
     {
       "id": 2,
@@ -23,14 +24,14 @@
       "username": "Emily",
       "email": "ewe@gmail.com",
       "password": "weweqeweqe",
-      "reminder": false,
+      "reminder": true,
       "id": 4
     },
     {
       "username": "Joy",
       "email": "wqeefqweqwe@gmail.com",
       "password": "qweqweqweweqewqee",
-      "reminder": true,
+      "reminder": false,
       "id": 5
     }
   ]

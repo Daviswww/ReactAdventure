@@ -4,6 +4,13 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Blocks from "./components/Blocks";
 import Forms from "./components/Forms";
+import About from "./components/About"
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const [showAddForms, setShowAddForms] = useState(false)
@@ -86,12 +93,23 @@ function App() {
   }
 
   return (
-    <div className='App'>
-       <Header />
-       <Main  showAdd={showAddForms} onAdd={ () => setShowAddForms(!showAddForms)}/>
-       {showAddForms && <Forms onAdd={addUser} />}
-       <Blocks blocks={blocks} onDelete={deleteBlock} onToggle={onLike}/>
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Switch>
+          <Route path="/about">
+            <About/>
+          </Route>
+          <Route path="/">
+          <div className='App'>
+            <Main  showAdd={showAddForms} onAdd={ () => setShowAddForms(!showAddForms)}/>
+            {showAddForms && <Forms onAdd={addUser} />}
+            <Blocks blocks={blocks} onDelete={deleteBlock} onToggle={onLike}/>
+          </div>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
